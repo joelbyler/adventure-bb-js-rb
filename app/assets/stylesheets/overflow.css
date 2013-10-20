@@ -7,11 +7,11 @@ body {
   margin: 0; 
   padding: 0;
   width: 100%;
-  background: #091018 url('images/bg.png') fixed repeat-x;
+  background: #091018 url('/assets/bg.png') fixed repeat-x;
 }
 
 header {
-  background-image: url('images/nav_bg.png');
+  background-image: url('/assets/nav_bg.png');
   background-repeat: repeat-x;
 }
 
@@ -145,7 +145,7 @@ body {
  */
 
 body {
-  background: #091018 url('images/bg.png') fixed repeat-x;
+  background: #091018 url('/assets/bg.png') fixed repeat-x;
 }
 
 a {
@@ -153,29 +153,29 @@ a {
 }
 
 h1 {
-  background-image: url("images/cyOverflow.png");
+  background-image: url("/assets/cyOverflow.png");
   background-repeat: no-repeat;
 }
 
 .voteup {
-  background-image: url("images/unselected_up.png");
+  background-image: url("/assets/unselected_up.png");
 }
 
 .voteup.selected {
-  background-image: url("images/selected_up.png");
+  background-image: url("/assets/selected_up.png");
 }
 
 .votedown {
-  background-image: url("images/unselected_down.png");
+  background-image: url("/assets/unselected_down.png");
 }
 
 .votedown.selected {
-  background-image: url("images/selected_down.png");
+  background-image: url("/assets/selected_down.png");
 }
 
 @media all and (min-width: 900px) {
   #rightBanner {
-    background-image: url("images/header_right.png");
+    background-image: url("/assets/header_right.png");
   }
 }
 
