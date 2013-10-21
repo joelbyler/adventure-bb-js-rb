@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AdventureBbJsRb::Application.config.secret_key_base = '948b5a25b3117b02eb0506eb96da2516c8bedec4daa2c802f3a5d18c41adb415cc2782b95bf61a472ca2c20d2d3ce0bf09a502ac8d52141cd9ecc14c11eafb37'
+Adventure::Application.config.secret_key_base = '948b5a25b3117b02eb0506eb96da2516c8bedec4daa2c802f3a5d18c41adb415cc2782b95bf61a472ca2c20d2d3ce0bf09a502ac8d52141cd9ecc14c11eafb37'

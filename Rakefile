@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-AdventureBbJsRb::Application.load_tasks
+Adventure::Application.load_tasks
